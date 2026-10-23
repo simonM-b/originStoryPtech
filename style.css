@@ -68,6 +68,25 @@ img {
   margin: 0;
 }
 
+.tileTxt {
+  opacity: 0;
+}
+
+.fade-in p {
+  width: 100px;
+  height: 100px;
+  color: white;
+  opacity: 0.00;
+  cursor: pointer;
+  transition: 0.5s all ease-in-out;
+  -moz-transition: 0.5s all ease-in-out;
+  -webkit-transition: 0.5s all ease-in-out;
+}
+
+.fade-in:hover p {
+  opacity: 1.00;
+}
+
 #a {
   grid-area: a;
 }
